@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.theme.HomeActivity"
+    tools:ignore="ExtraText">
+
+    <!-- Boutons en haut à droite sous forme d'ImageView -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="end"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width=" 450dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/profil"
+            android:layout_gravity="start" />
+
+
+        <ImageView
+            android:id="@+id/imgSettings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/param"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:id="@+id/imgLogin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/login"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+    <!-- Texte de salutation avec le nom de l'utilisateur -->
+
+    <TextView
+        android:id="@+id/greetingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bonjour Alice!"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:maxLines="2"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.25"/>
+    <TextView
+        android:id="@+id/learningText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qu'est-ce que tu veux apprendre aujourd'hui ?"
+        android:textSize="18sp"
+        android:textColor="#555555"
+        app:layout_constraintTop_toBottomOf="@id/greetingText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Liste des matières -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:columnCount="2"
+        android:horizontalSpacing="16dp"
+        android:rowCount="5"
+        android:verticalSpacing="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/learningText">
+
+        <!-- 10 matières -->
+        <Button
+            android:id="@+id/btnMaths"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="200dp"
+            android:text="Mathématiques"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnHistoire"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="200dp"
+            android:text="Histoire"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnSVT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="8dp"
+            android:text="SVT"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnFrançais"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="8dp"
+            android:text="Français"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnAnglais"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="8dp"
+            android:text="Anglais"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnPhysique"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="8dp"
+            android:text="Physique"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnChimie"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="8dp"
+            android:text="Chimie"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnGéographie"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="8dp"
+            android:text="Géographie"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnPhilosophie"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="8dp"
+            android:text="Philosophie"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnEconomie"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="8dp"
+            android:text="Economie"
+            android:textSize="16sp" />
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

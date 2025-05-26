@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "377001249285",
+    "project_id": "quizmaster-fcdea",
+    "storage_bucket": "quizmaster-fcdea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377001249285:android:f1b89fcc05af292d292a6c",
+        "android_client_info": {
+          "package_name": "com.example.quizmaster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCYhHT6GS9bJEbpPHpYJvtPD5BHVVMkUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

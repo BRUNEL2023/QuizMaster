@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizMaster</string>
+
+    <!-- Textes pour inscription -->
+    <string name="nom_d_utilisateurs">Nom dutilisateurs</string>
+    <string name="email">Email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="confirmez_le_mot_de_passe">Confirmer le mot de passe</string>
+    <string name="s_inscrires">S_inscrire</string>
+    <string name="d_j_un_compte_se_connecter">Déjà un compte ? Se connecter</string>
+    <string name="pas_d_compte">Pas de compte ? Sinscrire</string>
+
+    <!-- Textes pour connexion -->
+    <string name="login">Se connecter</string>
+    <string name="login_error">Email ou mot de passe incorrect</string>
+
+    <!-- Autres -->
+    <string name="button_create_account">Créer un compte</string>
+</resources>

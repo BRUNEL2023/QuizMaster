@@ -1,0 +1,19 @@
+# Android Studio
+.idea/
+*.iml
+.gradle/
+local.properties
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Kotlin/Java
+*.class
+*.log

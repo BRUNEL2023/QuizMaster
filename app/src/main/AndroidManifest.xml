@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.quizmaster">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="QuizMaster"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizMaster">
+        <activity
+            android:name=".ui.theme.QuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.theme.SplashScreenActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.theme.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.theme.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.theme.QuizDayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.theme.ChoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.theme.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.theme.LoginActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".ui.theme.RegisterActivity"
+            android:exported="false"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
+    </application>
+
+</manifest>

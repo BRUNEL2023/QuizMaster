@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBF5EC">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paramètre"
+            android:background="#68A062"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:padding="12dp"
+            android:gravity="center"/>
+
+        <!-- Section Compte -->
+        <TextView
+            android:text="Compte"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <include layout="@layout/settings_item_list"/>
+
+        <!-- Section Préférences -->
+        <TextView
+            android:text="Préférences"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <include layout="@layout/preferences_item_list"/>
+
+        <!-- Section À propos -->
+        <TextView
+            android:text="A propos"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <include layout="@layout/about_item_list"/>
+
+        <!-- Boutons -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Changer de compte"
+            android:layout_marginTop="24dp"/>
+
+        <Button
+            android:id="@+id/bouttondec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Déconnexion"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+</ScrollView>
