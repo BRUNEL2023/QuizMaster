@@ -23,7 +23,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <!-- Username -->
+
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/usernameInputLayout"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -47,7 +47,7 @@
                 android:padding="10dp" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Email -->
+
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/emailInputLayout"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -71,7 +71,7 @@
                 android:padding="10dp" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Password -->
+
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/passwordInputLayout"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -96,7 +96,7 @@
                 android:padding="10dp" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Confirm Password -->
+
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/confirmPasswordInputLayout"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -121,7 +121,7 @@
                 android:padding="10dp" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Register Button -->
+
         <Button
             android:id="@+id/registerButton"
             android:layout_width="wrap_content"

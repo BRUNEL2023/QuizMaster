@@ -22,7 +22,7 @@ class SplashScreenActivity : AppCompatActivity() {
 
 
 
-        // Utiliser un Handler pour définir le délai avant de passer à la prochaine activité
+        // j'tilise un Handler pour définir le délai avant de passer à la prochaine activité
         Handler(Looper.getMainLooper()).postDelayed({
             // Vérifier si l'utilisateur est connecté
             val auth = Firebase.auth

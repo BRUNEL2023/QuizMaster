@@ -26,7 +26,7 @@ class HomeActivity : AppCompatActivity() {
         val learningText = findViewById<TextView>(R.id.learningText)
         learningText.text = "Qu'est-ce que tu veux apprendre aujourd'hui ?"
 
-        // ImageView for profile, settings, login
+
         val imgProfile = findViewById<ImageView>(R.id.imgProfile)
         val imgSettings = findViewById<ImageView>(R.id.imgSettings)
         val imgLogin = findViewById<ImageView>(R.id.imgLogin)
@@ -41,7 +41,7 @@ class HomeActivity : AppCompatActivity() {
         val btnPhilosophie = findViewById<Button>(R.id.btnPhilosophie)
         val btnEconomie = findViewById<Button>(R.id.btnEconomie)
 
-        // Set onClickListeners
+
         imgProfile.setOnClickListener {
             val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)

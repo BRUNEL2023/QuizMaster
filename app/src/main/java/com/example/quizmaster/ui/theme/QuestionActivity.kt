@@ -32,7 +32,7 @@ class QuestionActivity : AppCompatActivity() {
         val chapitre = intent.getStringExtra("chapitre") ?: ""
         val matiere = intent.getStringExtra("matiere") ?: "Matière"
 
-        // ❗️CORRECTION ici : on initialise la variable globale
+
         questions = QuestionRepository.getRandomQuestions(chapitre, 10)
 
         timerText = findViewById(R.id.timerText)

@@ -6,7 +6,7 @@
     android:background="#FFFFFF"
     android:padding="24dp">
 
-    <!-- Image de profil en haut à droite -->
+
     <ImageView
         android:id="@+id/imgProfile"
         android:layout_width="40dp"
@@ -36,7 +36,7 @@
         android:layout_below="@id/imgProfile"
         android:layout_marginTop="100dp" />
 
-    <!-- Récapitulatif -->
+
     <TextView
         android:id="@+id/recap"
         android:layout_width="wrap_content"
