@@ -16,6 +16,13 @@
         android:src="@drawable/profil"
         android:contentDescription="Profil" />
 
+    <ImageView
+        android:id="@+id/imgSettings"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:src="@drawable/param"
+        android:layout_marginStart="10dp"/>
+
     <TextView
         android:id="@+id/titleQuizDay"
         android:layout_width="wrap_content"
