@@ -13,6 +13,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizMaster">
         <activity
+            android:name=".ui.theme.LicenceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.theme.SonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.theme.NotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.theme.ChangeProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.theme.ChangeAccountActivity"
+            android:exported="false"
+            android:theme="@style/Theme.QuizMaster" />
+        <activity
             android:name=".ui.theme.QuestionActivity"
             android:exported="false" />
         <activity
@@ -43,7 +59,7 @@
             android:exported="false" />
         <activity
             android:name=".ui.theme.LoginActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".ui.theme.RegisterActivity"
             android:exported="false"

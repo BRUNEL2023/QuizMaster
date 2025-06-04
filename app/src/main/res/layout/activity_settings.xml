@@ -30,6 +30,28 @@
 
         <include layout="@layout/settings_item_list"/>
 
+        <!-- Ajout cliquable "Changer de profil" -->
+        <LinearLayout
+            android:id="@+id/layoutChangerProfil"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="?attr/selectableItemBackground"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Changer de profil"
+                android:textSize="16sp"
+                android:textColor="#000"/>
+        </LinearLayout>
+
         <!-- Section Préférences -->
         <TextView
             android:text="Préférences"
@@ -39,6 +61,50 @@
             android:layout_height="wrap_content"/>
 
         <include layout="@layout/preferences_item_list"/>
+
+        <!-- Ajout cliquable "Notifications" -->
+        <LinearLayout
+            android:id="@+id/layoutNotifications"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="?attr/selectableItemBackground"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notifications"
+                android:textSize="16sp"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <!-- Ajout cliquable "Son" -->
+        <LinearLayout
+            android:id="@+id/layoutSon"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="?attr/selectableItemBackground"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Son"
+                android:textSize="16sp"
+                android:textColor="#000"/>
+        </LinearLayout>
 
         <!-- Section À propos -->
         <TextView
@@ -50,8 +116,31 @@
 
         <include layout="@layout/about_item_list"/>
 
+        <!-- Ajout cliquable "Licence" -->
+        <LinearLayout
+            android:id="@+id/layoutLicence"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="?attr/selectableItemBackground"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Licence"
+                android:textSize="16sp"
+                android:textColor="#000"/>
+        </LinearLayout>
+
         <!-- Boutons -->
         <Button
+            android:id="@+id/buttonChangerCompte"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Changer de compte"
@@ -62,7 +151,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Déconnexion"
-            android:layout_marginTop="8dp"
-            android:background="@android:color/darker_gray"/>
+            android:layout_marginTop="8dp"/>
     </LinearLayout>
 </ScrollView>

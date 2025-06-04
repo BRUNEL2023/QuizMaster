@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:text="Son"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:text="Choisissez vos préférences sonores pour l’application en utilisant les options ci-dessous."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Liste des sons -->
+        <RadioGroup
+            android:id="@+id/radioGroupSon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp">
+
+            <RadioButton
+                android:id="@+id/radioElectroChill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electro chill"/>
+
+            <RadioButton
+                android:id="@+id/radioPianoLeger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Piano léger"/>
+
+            <RadioButton
+                android:id="@+id/radioPopFolk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pop/folk instrumentale"/>
+
+            <RadioButton
+                android:id="@+id/radioLofiBrainFocus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lo-fi brain focus"/>
+
+            <RadioButton
+                android:id="@+id/radio8bitRetro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8-bit rétro"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonEnregistrerSon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enregistrer"
+            android:layout_marginTop="244dp"
+            android:background="#3689B0"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</ScrollView>
