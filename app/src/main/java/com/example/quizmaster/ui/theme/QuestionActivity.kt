@@ -83,15 +83,6 @@ class QuestionActivity : AppCompatActivity() {
         showQuestion()
     }
 
-    /*private fun finishQuiz() {
-        val prefs = getSharedPreferences("QUIZ_APP", Context.MODE_PRIVATE)
-        val totalScore = prefs.getInt("totalScore", 0)
-        prefs.edit().putInt("totalScore", totalScore + score).apply()
-
-        Toast.makeText(this, "Quiz terminé ! Score : $score", Toast.LENGTH_LONG).show()
-        finish()
-    }*/
-
     private fun finishQuiz() {
         val prefs = getSharedPreferences("QUIZ_APP", Context.MODE_PRIVATE)
         val matiere = intent.getStringExtra("matiere") ?: "Inconnue"  // Récupérer la matière
